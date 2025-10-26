@@ -517,4 +517,19 @@ html {
 
 .education-evidence.active {
   display: block;
+
+}
+
+/* Mentimeter Evidence Styles */
+.mentimeter-evidence {
+  display: none;
+}
+
+.mentimeter-evidence.active {
+  display: block;
+}
+
+.mentimeter-evidence iframe {
+  border-radius: 16px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
