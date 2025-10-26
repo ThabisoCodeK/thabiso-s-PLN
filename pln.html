@@ -1,0 +1,1479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <link rel="stylesheet" href="pln.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <link rel="icon" type="image/jpg" href="images/thabiso.jpg">
+  <title>Personal Learning Network</title>
+</head>
+<body class="bg-gradient-to-br from-gray-50 to-blue-50">
+  <!-- Enhanced Hamburger Navbar -->
+  <nav class="top-nav">
+    <div class="nav-content">
+      <div class="nav-brand group">
+        <div class="relative">
+          <img src="images/thabiso.jpg" alt="Profile" class="nav-img transform group-hover:scale-110 transition-transform duration-300">
+          <div class="absolute inset-0 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+        </div>
+        <div class="nav-info">
+          <span class="nav-name bg-gradient-to-r from-cyan-600 to-blue-600 bg-clip-text text-transparent">TP Kheo's Personal Learning Network</span>
+          <span class="nav-role text-gray-600">University of Johannesburg</span>
+        </div>
+      </div>
+
+      <div class="hamburger-menu">
+        <button class="hamburger-btn group">
+          <span class="group-hover:bg-cyan-500 transition-colors duration-300"></span>
+          <span class="group-hover:bg-cyan-500 transition-colors duration-300"></span>
+          <span class="group-hover:bg-cyan-500 transition-colors duration-300"></span>
+        </button>
+        
+        <ul class="nav-links">
+          <li><a href="#dashboard" class="hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500">Dashboard</a></li>
+          <li><a href="#personal-profiles" class="hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500">Personal Profiles</a></li>
+          <li><a href="#communication-tools" class="hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500">Communication Tools</a></li>
+          <li><a href="#assessment-tools" class="hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500">Assessment Tools</a></li>
+          <li><a href="#content-curation" class="hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500">Content Curation</a></li>
+          <li><a href="#teaching-tools" class="hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500">Teaching Tools</a></li>
+          <li><a href="#online-communities" class="hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500">Online Communities</a></li>
+          <li><a href="#learning-websites" class="hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500">Learning Websites</a></li>
+          <li><a href="#cloud-storages" class="hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500">My Cloud Storages</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Dashboard Section -->
+  <section id="dashboard" class="min-h-screen flex items-center justify-center bg-gradient-to-br from-teal-600 via-blue-600 to-purple-700 text-white relative overflow-hidden">
+    <div class="absolute inset-0 overflow-hidden">
+      <div class="absolute -top-20 -right-20 w-40 h-40 bg-white/10 rounded-full blur-xl"></div>
+      <div class="absolute -bottom-20 -left-20 w-40 h-40 bg-white/10 rounded-full blur-xl"></div>
+    </div>
+    
+    <div class="text-center px-4 relative z-10">
+      <h1 class="linetwo text-4xl md:text-6xl font-bold mb-8 drop-shadow-lg text-white">
+        Welcome To My Personal Learning Network!
+      </h1>
+      <div class="dashimage mb-8">
+        <img src="images/thabiso.jpg" alt="ThabisoKheo" class="rounded-full mx-auto border-4 border-white/30 shadow-2xl w-48 h-48 md:w-64 md:h-64 object-cover">
+      </div>
+      <h1 class="dashtext text-xl md:text-2xl font-semibold mb-4 bg-gradient-to-r from-white to-cyan-100 bg-clip-text text-transparent">
+        Hello! My name is Thabiso P. Kheo (<i class="italic">pronounced Kge-o</i>).
+      </h1>
+      <h1 class="dashtext text-lg md:text-xl text-cyan-100 font-mono bg-white/10 backdrop-blur-sm rounded-full px-6 py-2 inline-block">
+        222137444
+      </h1>
+    </div>
+  </section>
+
+  <!-- Personal Profiles Section -->
+  <section id="personal-profiles" class="min-h-screen py-16 bg-gradient-to-br from-indigo-200 to-purple-300">
+    <div class="container mx-auto px-4">
+      <div class="max-w-6xl mx-auto">
+        <h1 class="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-12">My Personal Profiles</h1>
+        
+        <!-- Profile Selection Buttons -->
+        <div class="flex justify-center space-x-4 mb-12 flex-wrap gap-4">
+          <button class="profile-btn bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg shadow-lg transition-all duration-300 font-semibold active" data-profile="linkedin">
+            LinkedIn
+          </button>
+          <button class="profile-btn bg-gray-800 hover:bg-gray-900 text-white px-6 py-3 rounded-lg shadow-lg transition-all duration-300 font-semibold" data-profile="x">
+            X
+          </button>
+          <button class="profile-btn bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg shadow-lg transition-all duration-300 font-semibold" data-profile="portfolioper">
+            Portfolio
+          </button>
+        </div>
+
+        <!-- LinkedIn Section -->
+        <div id="linkedin" class="profile-section active">
+          <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
+            <div class="text-center mb-8">
+              <img src="images/linkedin-logo.jpg" alt="LinkedIn Logo" class="rounded-2xl mx-auto shadow-lg w-24 h-24 md:w-32 md:h-32 object-cover">
+              <h2 class="text-3xl font-bold text-gray-800 mt-6 mb-8">LinkedIn Profile</h2>
+              
+              <div class="img-description max-w-4xl mx-auto mb-12">
+                <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+                  My LinkedIn profile serves as my professional digital identity where I connect with educators, and other professionals in my fields of interest. I use the LinkedIn platform to connect and interact with the posts of the people I follow. I also follow some groups in the education sector were ideas and new constructs of knowledge that may be beneficial for teaching in the 21st century are shared.
+                </p>
+                <a href="https://www.linkedin.com/in/thabiso-k-774a5a377" target="_blank" class="inline-block mt-4 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-all duration-300 font-semibold">
+                  Visit My LinkedIn Profile
+                </a>
+              </div>  
+            </div>
+            
+            <div class="carousel-wrapper flex items-center justify-center space-x-4 md:space-x-8 mb-8">
+              <button class="linkedin-back bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_left_alt</span>
+              </button>        
+              
+              <div class="carousel-inner max-w-2xl">
+                <img src="images/linkedin1.png" alt="LinkedIn Profile 1" class="linkedin-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500 active">
+                <img src="images/linkedin2.png" alt="LinkedIn Profile 2" class="linkedin-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/linkedin3.png" alt="LinkedIn Profile 3" class="linkedin-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/linkedin4.png" alt="LinkedIn Profile 4" class="linkedin-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/linkedin5.png" alt="LinkedIn Profile 5" class="linkedin-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/linkedin6.png" alt="LinkedIn Profile 6" class="linkedin-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/linkedin7.png" alt="LinkedIn Profile 7" class="linkedin-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+              </div>
+              
+              <button class="linkedin-next bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_right_alt</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- x Section -->
+        <div id="x" class="profile-section hidden">
+          <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
+            <div class="text-center mb-8">
+              <img src="images/x-logo.jpg" alt="x Logo" class="rounded-2xl mx-auto shadow-lg w-24 h-24 md:w-32 md:h-32 object-cover">
+              <h2 class="text-3xl font-bold text-gray-800 mt-6 mb-8">X (formerly Twitter)</h2>
+              
+              <div class="img-description max-w-4xl mx-auto mb-12">
+                <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+                  I use X to follow hashtags that tweet about education mostly <i>#Educhat</i>, <i>#Teaching</i> and follow some interesting teaching/education pages that give teacher's advice on how to navigate daily teaching activities. Since I am a commerce teacher, I also follow and engage with commerce pages that speak to the field of accounting and on the other hand those of sports. I also have read interesting articles from the platform that I have embedded below.
+                </p>
+                <a href="https://x.com/thabisokh_eo" target="_blank" class="inline-block mt-4 bg-gray-800 hover:bg-gray-900 text-white px-6 py-3 rounded-lg transition-all duration-300 font-semibold">
+                  Visit My X Profile
+                </a>
+              </div>  
+            </div>
+            
+            <div class="carousel-wrapper flex items-center justify-center space-x-4 md:space-x-8 mb-8">
+              <button class="x-back bg-gray-800 hover:bg-gray-900 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_left_alt</span>
+              </button> 
+            <div class="carousel-inner max-w-2xl">     
+              <div class="x-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500 active">
+                <iframe src="https://teachergoals.com/before-students-can-thrive-adults-must-survive/" width="650" height="500" frameBorder="0" style="border: 0;"></iframe><br>Brought to you by <a href="https://teachergoals.com/before-students-can-thrive-adults-must-survive/" target="_blank">teachergoals.com</a>
+              </div>
+              <div class="x-evidence w-full h-auto rounded-2x1 shadow-2xl transition-all duration-500">
+                <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Cone of Learning <a href="https://t.co/y1MOouJy7A" width="650" height="500">pic.twitter.com/y1MOouJy7A</a></p>&mdash; Scholarship for PhD (@ScholarshipfPhd) <a href="https://twitter.com/ScholarshipfPhd/status/1980956272544370800?ref_src=twsrc%5Etfw">October 22, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              </div>
+              <div class="x-evidence w-full h-auto rounded-2x1 shadow-2xl transition-all duration-500">
+                <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Shifting from the TCA to SCA. <a href="https://t.co/tu5UxBUBZb">pic.twitter.com/tu5UxBUBZb</a></p>&mdash; thabiso_kheo (@thabisokh_eo) <a href="https://twitter.com/thabisokh_eo/status/1981014679901311369?ref_src=twsrc%5Etfw">October 22, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              </div>
+              <img src="images/X1.png" alt="X Profile 1" class="x-evidence w-full h-auto rounded-2x1 shadow-2xl transition-all duration-500">
+              <img src="images/X2.png" alt="X Profile 2" class="x-evidence w-full h-auto rounded-2x1 shadow-2xl transition-all duration-500">
+              <img src="images/X3.png" alt="X Profile 3" class="x-evidence w-full h-auto rounded-2x1 shadow-2xl transition-all duration-500">
+              <img src="images/X4.png" alt="X Profile 4" class="x-evidence w-full h-auto rounded-2x1 shadow-2xl transition-all duration-500">
+            </div>
+              <button class="x-next bg-gray-800 hover:bg-gray-900 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_right_alt</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- portfolioper Section -->
+        <div id="portfolioper" class="profile-section hidden">
+          <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
+            <div class="text-center mb-8">
+              <img src="images/thabiso.jpg" alt="portfolioper Logo" class="rounded-2xl mx-auto shadow-lg w-24 h-24 md:w-32 md:h-32 object-cover">
+              <h2 class="text-3xl font-bold text-gray-800 mt-6 mb-8">Personal Portfolio</h2>
+              
+              <div class="img-description max-w-4xl mx-auto mb-12">
+                <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+                  My personal portfolio is a web that includes everything that I do - coding, sports broadcasting and the wonderful profession of being a teacher. I created and deployed this so that people can find and contact me easily. It has a section for contacts amongst other sections in it.
+                </p>
+                <a href="https://thabisok.oneapp.dev/" target="_blank" class="inline-block mt-4 bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg transition-all duration-300 font-semibold">
+                  Visit My Portfolio Profile
+                </a>
+              </div>  
+            </div>
+            
+            <div class="carousel-wrapper flex items-center justify-center space-x-4 md:space-x-8 mb-8">             
+            <div class="carousel-inner max-w-2xl">
+                <div class="portfolioper-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500 active">
+                <iframe src="https://thabisok.oneapp.dev/" width="650" height="500" scrolling="yes" style="border:3px solid #ffffff;" marginwidth= 0 marginheight="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Communication Tools Section -->
+  <section id="communication-tools" class="min-h-screen py-16 bg-gradient-to-br from-green-200 to-green-400">
+    <div class="container mx-auto px-4">
+      <div class="max-w-6xl mx-auto">
+        <h1 class="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-12">My Communication Tools</h1>
+        
+        <!-- Communication Tools Selection Buttons -->
+        <div class="flex justify-center space-x-4 mb-12 flex-wrap gap-4">
+          <button class="communication-btn bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg shadow-lg transition-all duration-300 font-semibold active" data-communication="whatsapp">
+            WhatsApp
+          </button>
+          <button class="communication-btn bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg shadow-lg transition-all duration-300 font-semibold" data-communication="discord">
+            Discord
+          </button>
+          <button class="communication-btn bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg shadow-lg transition-all duration-300 font-semibold" data-communication="google-meet">
+            Google Meet
+          </button>
+          <button  class="communication-btn bg-yellow-600 hover:bg-yellow-700 text-white px-6 py-3 rounded-lg shadow-lg transition-all duration-300 font-semibold" data-communication="gmail">
+            GMail
+          </button>
+        </div>
+
+        <!-- WhatsApp Section -->
+        <div id="whatsapp" class="communication-section active">
+          <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
+            <div class="text-center mb-8">
+              <img src="images/whatsapp-logo.jpg" alt="WhatsApp Logo" class="rounded-2xl mx-auto shadow-lg w-24 h-24 md:w-32 md:h-32 object-cover">
+              <h2 class="text-3xl font-bold text-gray-800 mt-6 mb-8">WhatsApp</h2>
+              
+              <div class="img-description max-w-4xl mx-auto mb-12">
+                <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+                  I use whatsapp to communicate with my coursemates and I join tutorial groups for the set of tutorials I take. In this groups we share resources, sometimes past exam papers. I also communicate with my private individuals through this communication platform. I do not interact with my learners through whatsapp knowing how chaotic they can get.
+                </p>
+              </div>  
+            </div>
+            
+            <div class="carousel-wrapper flex items-center justify-center space-x-4 md:space-x-8 mb-8">
+              <button class="whatsapp-back bg-green-600 hover:bg-green-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_left_alt</span>
+              </button>        
+              
+              <div class="carousel-inner max-w-2xl">
+                <img src="images/whatsapp1.png" alt="WhatsApp 1" class="whatsapp-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500 active">
+                <img src="images/whatsapp2.png" alt="WhatsApp 2" class="whatsapp-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/whatsapp3.png" alt="WhatsApp 3" class="whatsapp-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+              </div>
+              
+              <button class="whatsapp-next bg-green-600 hover:bg-green-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_right_alt</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Discord Section -->
+        <div id="discord" class="communication-section hidden">
+          <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
+            <div class="text-center mb-8">
+              <img src="images/discord-logo.jpg" alt="Discord Logo" class="rounded-2xl mx-auto shadow-lg w-24 h-24 md:w-32 md:h-32 object-cover">
+              <h2 class="text-3xl font-bold text-gray-800 mt-6 mb-8">Discord</h2>
+              
+              <div class="img-description max-w-4xl mx-auto mb-12">
+                <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+                  Discord is used in my Methodology and Practicum Business Studies as a way to communicate other than the means of the learning management system. We receive communication and interact with other students in these communities - share resources and consult the lecturer in the module.
+                </p>
+              </div>  
+            </div>
+            
+            <div class="carousel-wrapper flex items-center justify-center space-x-4 md:space-x-8 mb-8">
+              <button class="discord-back bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_left_alt</span>
+              </button>        
+              
+              <div class="carousel-inner max-w-2xl">
+                <img src="images/discord1.png" alt="Microsoft discord 1" class="discord-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500 active">
+                <img src="images/discord2.png" alt="Microsoft discord 2" class="discord-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/discord3.png" alt="Microsoft discord 3" class="discord-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+              </div>
+              
+              <button class="discord-next bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_right_alt</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Google Meet Section -->
+        <div id="google-meet" class="communication-section hidden">
+          <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
+            <div class="text-center mb-8">
+              <img src="images/meet-logo.jpg" alt="Google Meet Logo" class="rounded-2xl mx-auto shadow-lg w-24 h-24 md:w-32 md:h-32 object-cover">
+              <h2 class="text-3xl font-bold text-gray-800 mt-6 mb-8">Google Meet</h2>
+              
+              <div class="img-description max-w-4xl mx-auto mb-12">
+                <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+                  Google Meet is my go-to platform for virtual classes and online tutoring sessions. The seamless integration with Google Calendar makes scheduling sessions effortless, and the screen sharing feature allows me to present slides and demonstrate concepts effectively. The recording feature is particularly useful for learners who miss live sessions however I do not use it that much to enforce attendance with my Accounting Group.
+                </p>
+              </div>  
+            </div>
+            
+            <div class="carousel-wrapper flex items-center justify-center space-x-4 md:space-x-8 mb-8">
+              <button class="meet-back bg-red-600 hover:bg-red-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_left_alt</span>
+              </button>        
+              
+              <div class="carousel-inner max-w-2xl">
+                <img src="images/meet1.png" alt="Google Meet 1" class="meet-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500 active">
+                <img src="images/meet2.png" alt="Google Meet 2" class="meet-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+              </div>
+              
+              <button class="meet-next bg-red-600 hover:bg-red-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_right_alt</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!---GMAIL Section-->
+         <div id="gmail" class="communication-section hidden">
+          <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
+            <div class="text-center mb-8">
+              <img src="images/gmail-logo.jpg" alt="Gmail Logo" class="rounded-2xl mx-auto shadow-lg w-24 h-24 md:w-32 md:h-32 object-cover">
+              <h2 class="text-3xl font-bold text-gray-800 mt-6 mb-8">GMail</h2>
+              
+              <div class="img-description max-w-4xl mx-auto mb-12">
+                <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+                 I use Google Mail to communicate with my learners and other people I communicate. The interesting feature I use of Google Mail is the ability to schedule emails because I sometimes forget to reply promptly to the email when I immediately get it so this feature helps me alot. 
+                </p>
+              </div>  
+            </div>
+            
+            <div class="carousel-wrapper flex items-center justify-center space-x-4 md:space-x-8 mb-8">
+              <button class="gmail-back bg-red-600 hover:bg-red-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_left_alt</span>
+              </button>        
+              
+              <div class="carousel-inner max-w-2xl">
+                <img src="images/gmail1.png" alt="GMail 1" class="gmail-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500 active">
+                <img src="images/gmail2.png" alt="GMail 2" class="gmail-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/gmail3.png" alt="GMail 3" class="gmail-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+              </div>
+              
+              <button class="gmail-next bg-red-600 hover:bg-red-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_right_alt</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Assessment Section -->
+  <section id="assessment-tools" class="min-h-screen py-16 bg-gradient-to-br from--200 to-blue-400">
+    <div class="container mx-auto px-4">
+      <div class="max-w-6xl mx-auto">
+        <h1 class="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-12">My Assessment Tools</h1>
+        
+        <!-- Assessment Tools Selection Buttons -->
+        <div class="flex justify-center space-x-4 mb-12 flex-wrap gap-4">
+          <button class="assessment-btn bg-orange-600 hover:bg-orange-700 text-white px-6 py-3 rounded-lg shadow-lg transition-all duration-300 font-semibold active" data-assessment="google-forms">
+            Google Forms
+          </button>
+          <button class="assessment-btn bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg shadow-lg transition-all duration-300 font-semibold" data-assessment="kahoot">
+            Kahoot
+          </button>
+          <button class="assessment-btn bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg shadow-lg transition-all duration-300 font-semibold" data-assessment="Gimkit">
+            Gimkit
+          </button>
+        </div>
+
+        <!-- Google Forms Section -->
+        <div id="google-forms" class="assessment-section active">
+          <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
+            <div class="text-center mb-8">
+              <img src="images/google-forms-logo.jpg" alt="Google Forms Logo" class="rounded-2xl mx-auto shadow-lg w-24 h-24 md:w-32 md:h-32 object-cover">
+              <h2 class="text-3xl font-bold text-gray-800 mt-6 mb-8">Google Forms</h2>
+              
+              <div class="img-description max-w-4xl mx-auto mb-12">
+                <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+                  I use Google Forms to create assessments for the learners that are in my classes, also to collect feedback and reflection points from them. The greatest advantage is self-grading for the objective assessments - it gives me less time marking and going through everything that learners typed, they also benefit from the immediate feedback.
+                </p>
+              </div>  
+            </div>
+            
+            <div class="carousel-wrapper flex items-center justify-center space-x-4 md:space-x-8 mb-8">
+              <button class="google-forms-back bg-green-600 hover:bg-green-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_left_alt</span>
+              </button>        
+              
+              <div class="carousel-inner max-w-4xl">
+                <div class="google-forms-evidence w-full rounded-2xl shadow-2xl transition-all duration-500 active">
+                  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfn4LRKQ4jIdISBxKa5e83xxbRw-ZAuEwtn5y3jhejfCK8GVA/viewform?embedded=true" width="650" height="500" frameborder="0" marginheight="0" marginwidth="0" class="rounded-2xl">Loading…</iframe>
+                </div>
+                <div class="google-forms-evidence w-full rounded-2xl shadow-2xl transition-all duration-500">
+                  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScUnLqp-Ru7uAooyhiicHs_aO6czzpSA4B9WCO-oQFiurxpsA/viewform?embedded=true" width="650" height="500" marginheight="0" marginwidth="0" class="rounded-2x1">Loading…</iframe>
+                </div>
+                <div class="google-forms-evidence w-full rounded-2xl shadow-2xl transition-all duration-500">
+                  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc3aGauKB0qKRbEYZNf8yXIaDekY6EfL-qP3ZFc7j2EZNweTw/viewform?embedded=true" width="650" height="500" frameborder="0" marginheight="0" marginwidth="0" class="rounded-2x1">Loading…</iframe>
+                </div>
+                <img src="images/googleForm1.png" alt="google-form-1" class="google-forms-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+              </div>
+              
+              <button class="google-forms-next bg-green-600 hover:bg-green-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_right_alt</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Kahoot Section -->
+        <div id="kahoot" class="assessment-section hidden">
+          <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
+            <div class="text-center mb-8">
+              <img src="images/kahoot-logo.jpg" alt="Kahoot Logo" class="rounded-2xl mx-auto shadow-lg w-24 h-24 md:w-32 md:h-32 object-cover">
+              <h2 class="text-3xl font-bold text-gray-800 mt-6 mb-8">Kahoot</h2>
+              
+              <div class="img-description max-w-4xl mx-auto mb-12">
+                <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+                  Kahoot is my go to platform for making fun and interactive learning assessments. They strike some positive competition in learners to reach the podium which is the fun part of it. I also collaborated with my colleagues in Life Sciences to curate an assessment for their learners. I also have done some assessments evident for my methodologies which I have engaged learners in recently.
+                </p>
+              </div>  
+            </div>
+            
+            <div class="carousel-wrapper flex items-center justify-center space-x-4 md:space-x-8 mb-8">
+              <button class="kahoot-back bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_left_alt</span>
+              </button>        
+              
+              <div class="carousel-inner max-w-2xl">
+                <img src="images/kahoot1.png" alt="Kahoot 1" class="kahoot-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500 active">
+                <img src="images/kahoot2.png" alt="Kahoot 2" class="kahoot-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/kahoot3.png" alt="Kahoot 3" class="kahoot-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/kahoot4.png" alt="Kahoot 4" class="kahoot-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+              </div>
+              
+              <button class="kahoot-next bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_right_alt</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gimkit Section -->
+        <div id="Gimkit" class="assessment-section hidden">
+          <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
+            <div class="text-center mb-8">
+              <img src="images/Gimkit-logo.jpg" alt="Gimkit Logo" class="rounded-2xl mx-auto shadow-lg w-24 h-24 md:w-32 md:h-32 object-cover">
+              <h2 class="text-3xl font-bold text-gray-800 mt-6 mb-8">Gimkit</h2>
+              
+              <div class="img-description max-w-4xl mx-auto mb-12">
+                <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+                  Gimkit provides me with self-paced assessments that students can complete individually or in discord. I appreciate the detailed reports that help me track student progress and identify learning gaps. The memes and avatars make the assessment experience enjoyable for students, while the comprehensive question bank saves me time in creating assessments.
+                </p>
+                <a href="https://www.gimkit.com/view/68f160a860ce4e11a503256a" target="_blank" class="inline-block mt-4 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-all duration-300 font-semibold">
+                  Accounting Gimkit
+                </a>
+                <a href="https://www.gimkit.com/view/68f1580d9a339c0412cdf706" target="_blank" class="inline-block mt-4 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-all duration-300 font-semibold">
+                  Business Studies Gimkit
+                </a>
+            </div>
+            
+            <div class="carousel-wrapper flex items-center justify-center space-x-4 md:space-x-8 mb-8">
+              <button class="Gimkit-back bg-purple-600 hover:bg-purple-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_left_alt</span>
+              </button>        
+              
+              <div class="carousel-inner max-w-2xl">
+                <img src="images/Gimkit1.png" alt="Gimkit 1" class="Gimkit-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500 active">
+                <img src="images/Gimkit2.png" alt="Gimkit 2" class="Gimkit-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/Gimkit3.png" alt="Gimkit 3" class="Gimkit-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/Gimkit4.png" alt="Gimkit 4" class="Gimkit-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/Gimkit5.png" alt="Gimkit 5" class="Gimkit-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/Gimkit6.png" alt="Gimkit 6" class="Gimkit-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/Gimkit7.png" alt="Gimkit 7" class="Gimkit-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/Gimkit8.png" alt="Gimkit 8" class="Gimkit-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+              </div>
+              <button class="Gimkit-next bg-purple-600 hover:bg-purple-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_right_alt</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Content Curation Section -->
+  <section id="content-curation" class="min-h-screen py-16 bg-gradient-to-br from-pink-200 to-pink-400">
+    <div class="container mx-auto px-4">
+      <div class="max-w-6xl mx-auto">
+        <h1 class="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-12">My Content Curation Tools</h1>
+        
+        <!-- Content Curation Selection Buttons -->
+        <div class="flex justify-center space-x-4 mb-12 flex-wrap gap-4">
+          <button class="curation-btn bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg shadow-lg transition-all duration-300 font-semibold active" data-curation="pinterest">
+            Pinterest
+          </button>
+          <button class="curation-btn bg-yellow-600 hover:bg-yellow-700 text-white px-6 py-3 rounded-lg shadow-lg transition-all duration-300 font-semibold" data-curation="symbaloo">
+            Symbaloo
+          </button>
+          <button class="curation-btn bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg shadow-lg transition-all duration-300 font-semibold" data-curation="padlet">
+            Padlet
+          </button>
+          <button class="curation-btn bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg shadow-lg transition-all duration-300 font-semibold" data-curation="quizlet">
+            Quizlet
+          </button>
+          <button class="curation-btn bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg shadow-lg transition-all duration-300 font-semibold" data-curation="education">
+            Education.com
+          </button>
+        </div>
+
+        <!-- Pinterest Section -->
+        <div id="pinterest" class="curation-section active">
+          <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
+            <div class="text-center mb-8">
+              <img src="images/pinterest-logo.jpg" alt="Pinterest Logo" class="rounded-2xl mx-auto shadow-lg w-24 h-24 md:w-32 md:h-32 object-cover">
+              <h2 class="text-3xl font-bold text-gray-800 mt-6 mb-8">Pinterest</h2>
+              
+              <div class="img-description max-w-4xl mx-auto mb-12">
+                <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+                  I use Pinterest to curate boards across all the subjects that I teach and those of interest. I collect teaching resources such as visuals for business studies, accounting, ems and physical education. I store them and share them with learners when they need supplementary resources. For Physical Education, I collect game-ideas and teaching strategies across all subjects.
+                </p>
+              </div>  
+            </div>
+            
+            <div class="carousel-wrapper flex items-center justify-center space-x-4 md:space-x-8 mb-8">
+              <button class="pinterest-back bg-red-600 hover:bg-red-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_left_alt</span>
+              </button>        
+              
+              <div class="carousel-inner max-w-4xl">
+                <div class="pinterest-evidence w-full h-auto rounded-2x1 shadow-2xl transition-all duration-500 active">
+                  <iframe src="https://petracoding.github.io/pinterest/board.html?link=thabisokirsten/teaching-strategies/&hideHeader=0&hideFooter=0&transparent=0" width="800px" height="500px"></iframe>
+                </div>
+                <div class="pinterest-evidence w-full h-auto rounded-2x1 shadow-2xl transition-all duration-500">
+                  <iframe src="https://petracoding.github.io/pinterest/board.html?link=thabisokirsten/economic-and-management-sciences/&hideHeader=0&hideFooter=0&transparent=0" width="800px" height="500px"></iframe>
+                </div>
+                <div class="pinterest-evidence w-full h-auto rounded-2x1 shadow-2xl transition-all duration-500">
+                  <iframe src="https://petracoding.github.io/pinterest/board.html?link=thabisokirsten/accounting/&hideHeader=0&hideFooter=0&transparent=0" width="800px" height="500px"></iframe>
+                </div>
+                <div class="pinterest-evidence w-full h-auto rounded-2x1 shadow-2xl transition-all duration-500">
+                  <iframe src= "https://petracoding.github.io/pinterest/board.html?link=thabisokirsten/physical-education-sport-methodology/&hideHeader=0&hideFooter=0&transparent=0" width="800px" height="500px"></iframe>
+                </div>
+                <div class="pinterest-evidence w-full h-auto rounded-2x1 shadow-2xl transition-all duration-500">
+                  <iframe src= "https://petracoding.github.io/pinterest/board.html?link=thabisokirsten/business-studies/&hideHeader=0&hideFooter=0&transparent=0" width="800px" height="500px"></iframe>
+                </div>
+              </div>
+              
+              <button class="pinterest-next bg-red-600 hover:bg-red-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_right_alt</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- symbaloo Section -->
+        <div id="symbaloo" class="curation-section hidden">
+          <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
+            <div class="text-center mb-8">
+              <img src="images/symbaloo-logo.jpg" alt="symbaloo Logo" class="rounded-2xl mx-auto shadow-lg w-24 h-24 md:w-32 md:h-32 object-cover">
+              <h2 class="text-3xl font-bold text-gray-800 mt-6 mb-8">Symbaloo</h2>
+              
+              <div class="img-description max-w-4xl mx-auto mb-12">
+                <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+                  I use Symbaloo to organise all the websites that I use into a Webmix that is very interactive. I also allow my learners access to the webmix when I have important resources that I have shared on the webmix to encourage them to be online instead of me feeding them resources all the time.
+                </p>
+                <a href="https://www.symbaloo.com/mix/my-webmix-brpm" target="_blank" class="inline-block mt-4 bg-yellow-600 hover:bg-yellow-700 text-white px-6 py-3 rounded-lg transition-all duration-300 font-semibold">
+                  Access My Symbaloo Webmix
+                </a>
+              </div>  
+            </div>
+            
+            <div class="carousel-wrapper flex items-center justify-center space-x-4 md:space-x-8 mb-8">      
+              
+              <div class="carousel-inner max-w-4xl">
+                <div class="symbaloo-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500 active">
+                  <iframe frameborder="0" noresize="noresize" height="500px" width="650px" src="https://www.symbaloo.com/embed/my-symbaloo-brpm"></iframe>
+                </div>
+              </div>
+           </div>
+          </div>
+        </div>
+
+        <!-- Padlet Section -->
+        <div id="padlet" class="curation-section hidden">
+          <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
+            <div class="text-center mb-8">
+              <img src="images/padlet-logo.jpg" alt="Padlet Logo" class="rounded-2xl mx-auto shadow-lg w-24 h-24 md:w-32 md:h-32 object-cover">
+              <h2 class="text-3xl font-bold text-gray-800 mt-6 mb-8">Padlet</h2>
+              
+              <div class="img-description max-w-4xl mx-auto mb-12">
+                <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+                  I use Padlet to create collaborative boards to plan my lessons and create assessment opportunities that are interactive. I enjoy this app for setting up my lessons and breaking it into small effective sessions with number of activities embedded in the lesson. Padlet uses a very cool AI tool that allows one to plan and remove ineffective teaching activities in the lesson plan.
+                </p>
+              </div>  
+            </div>
+            
+            <div class="carousel-wrapper flex items-center justify-center space-x-4 md:space-x-8 mb-8">
+              <button class="padlet-back bg-indigo-600 hover:bg-indigo-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_left_alt</span>
+              </button>        
+              
+              <div class="carousel-inner max-w-4xl">
+                <div class="padlet-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500 active">
+                    <div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0">
+                      <iframe src="https://padlet.com/embed/owrqmcxfo7b738br" frameborder="0" allow="camera;microphone;geolocation;display-capture;clipboard-write" style="width:650px;height:500px;display:block;padding:0;margin:0"></iframe></p><div style="display:flex;align-items:center;justify-content:end;margin:0;height:28px"><a href="https://padlet.com?ref=embed" style="display:block;flex-grow:0;margin:0;border:none;padding:0;text-decoration:none" target="_blank"><div style="display:flex;align-items:center;"><img src="https://padlet.net/embeds/made_with_padlet_2022.png" width="114" height="28" style="padding:0;margin:0;background:0 0;border:none;box-shadow:none" alt="Made with Padlet"></div></a></div></div>
+                 </div>
+                <div class="padlet-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4">
+                  <p style="padding:0;margin:0">
+                    <iframe src="https://padlet.com/embed/ixhi3a75a5t6ls75" frameborder="0" allow="camera;microphone;geolocation;display-capture;clipboard-write" style="width:650px;height:500px;display:block;padding:0;margin:0"></iframe>
+                  </p>
+                  <div style="display:flex;align-items:center;justify-content:end;margin:0;height:28px">
+                    <a href="https://padlet.com?ref=embed" style="display:block;flex-grow:0;margin:0;border:none;padding:0;text-decoration:none" target="_blank">
+                      <div style="display:flex;align-items:center;">
+                        <img src="https://padlet.net/embeds/made_with_padlet_2022.png" width="114" height="28" style="padding:0;margin:0;background:0 0;border:none;box-shadow:none" alt="Made with Padlet">
+                      </div></a>
+                  </div>
+                </div>
+                </div>
+                <div class="padlet-evidence w-full h-auto rounded-2x1 shadow-2xl transition-all duration-500">
+                  <div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://padlet.com/embed/zlylnc0uq2bwondk" frameborder="0" allow="camera;microphone;geolocation;display-capture;clipboard-write" style="width:650px;height:500px;display:block;padding:0;margin:0"></iframe></p><div style="display:flex;align-items:center;justify-content:end;margin:0;height:28px"><a href="https://padlet.com?ref=embed" style="display:block;flex-grow:0;margin:0;border:none;padding:0;text-decoration:none" target="_blank"><div style="display:flex;align-items:center;"><img src="https://padlet.net/embeds/made_with_padlet_2022.png" width="114" height="28" style="padding:0;margin:0;background:0 0;border:none;box-shadow:none" alt="Made with Padlet"></div></a></div></div>
+                </div>
+                <div class="padlet-evidence w-full h-auto rounded-2x1 shadow-2xl transition-all duration-500">
+                  <div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://padlet.com/embed/e6uvcsa24jkbn2lf" frameborder="0" allow="camera;microphone;geolocation;display-capture;clipboard-write" style="width:650px;height:500px;display:block;padding:0;margin:0"></iframe></p><div style="display:flex;align-items:center;justify-content:end;margin:0;height:28px"><a href="https://padlet.com?ref=embed" style="display:block;flex-grow:0;margin:0;border:none;padding:0;text-decoration:none" target="_blank"><div style="display:flex;align-items:center;"><img src="https://padlet.net/embeds/made_with_padlet_2022.png" width="114" height="28" style="padding:0;margin:0;background:0 0;border:none;box-shadow:none" alt="Made with Padlet"></div></a></div></div>
+                </div>
+                  <div class="padlet-evidence w-full h-auto rounded-2x1 shadow-2xl transition-all duration-500">
+                    <div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://padlet.com/embed/1y0c6syh47id785x" frameborder="0" allow="camera;microphone;geolocation;display-capture;clipboard-write" style="width:650px;height: 500px;display:block;padding:0;margin:0"></iframe></p><div style="display:flex;align-items:center;justify-content:end;margin:0;height:28px"><a href="https://padlet.com?ref=embed" style="display:block;flex-grow:0;margin:0;border:none;padding:0;text-decoration:none" target="_blank"><div style="display:flex;align-items:center;"><img src="https://padlet.net/embeds/made_with_padlet_2022.png" width="114" height="28" style="padding:0;margin:0;background:0 0;border:none;box-shadow:none" alt="Made with Padlet"></div></a></div></div>
+                  </div>
+                  <div class="padlet-evidence w-full h-auto rounded-2x1 shadow-2xl transition-all duration-500">
+                    <div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://padlet.com/embed/q8qsjrq67u2jme2z" frameborder="0" allow="camera;microphone;geolocation;display-capture;clipboard-write" style="width:650px;height:500px;display:block;padding:0;margin:0"></iframe></p><div style="display:flex;align-items:center;justify-content:end;margin:0;height:28px"><a href="https://padlet.com?ref=embed" style="display:block;flex-grow:0;margin:0;border:none;padding:0;text-decoration:none" target="_blank"><div style="display:flex;align-items:center;"><img src="https://padlet.net/embeds/made_with_padlet_2022.png" width="114" height="28" style="padding:0;margin:0;background:0 0;border:none;box-shadow:none" alt="Made with Padlet"></div></a></div></div>
+                  </div>
+              </div>
+              <button class="padlet-next bg-indigo-600 hover:bg-indigo-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_right_alt</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Quizlet Section-->
+        <div id="quizlet" class="curation-section hidden">
+          <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
+            <div class="text-center mb-8">
+              <img src="images/quizlet-logo.jpg" alt="quizlet Logo" class="rounded-2xl mx-auto shadow-lg w-24 h-24 md:w-32 md:h-32 object-cover">
+              <h2 class="text-3xl font-bold text-gray-800 mt-6 mb-8">Quizlet</h2>
+              
+              <div class="img-description max-w-4xl mx-auto mb-12">
+                <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+                  Quizlet is a platform I use to create flashcards for content heavy subjects such as Business Studies and EMS. I create flashcards that learners can use to study and even practice concepts with. I have created flashcards for Business Studies and EMS evident below. 
+                </p>
+                 <a href="https://quizlet.com/za/1094030654/impact-of-recent-legislation-on-the-business-flash-cards/?i=50ug42&x=1jqt" target="_blank" class="inline-block mt-4 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-all duration-300 font-semibold">
+                  Business Studies quizlet
+                </a>
+                <a href="https://quizlet.com/za/1094057648/grade-8-economic-and-management-sciences-forms-of-ownership-flash-cards/?i=50ug42&x=1jqt" target="_blank" class="inline-block mt-4 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-all duration-300 font-semibold" style="margin-left: 2px;">
+                  EMS quizlet
+                </a>
+              </div>  
+            </div>
+            <div class="carousel-wrapper flex items-center justify-center space-x-4 md:space-x-8 mb-8">
+              <button class="quizlet-back bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_left_alt</span>
+              </button>        
+              <div class="carousel-inner max-w-2xl">
+                <img src="images/quizlet1.png" alt="quizlet 1" class="quizlet-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500 active">
+                <img src="images/quizlet2.png" alt="quizlet 2" class="quizlet-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+              </div>
+              <button class="quizlet-next bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_right_alt</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education.com Section-->
+      <!-- Education.com Section-->
+<div id="education" class="curation-section hidden">
+  <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
+    <div class="text-center mb-8">
+      <img src="images/education-logo.jpg" alt="Education.com Logo" class="rounded-2xl mx-auto shadow-lg w-24 h-24 md:w-32 md:h-32 object-cover">
+      <h2 class="text-3xl font-bold text-gray-800 mt-6 mb-8">Education.com</h2>
+      
+      <div class="img-description max-w-4xl mx-auto mb-12">
+        <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+          I use Education.com to curate crossword puzzles for my grade 8 and 9 learners. I used this in class to test their recall of the concepts that they have learnt - the lowest level of the Bloom's taxonomy. This cross-word puzzles are very fun to do and in all the classes I implemented them during WIL, learners seemed to enjoy the activities. 
+        </p>
+      </div>  
+    </div>
+    
+    <!-- Updated Carousel to match PowerPoint styling -->
+    <div class="carousel-wrapper flex items-center justify-center space-x-4 md:space-x-8 mb-8">
+      <button class="education-back bg-red-600 hover:bg-red-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+        <span class="material-symbols-outlined text-2xl">arrow_left_alt</span>
+      </button>        
+      
+      <div class="carousel-inner max-w-2xl">
+        <div class="education-evidence w-full rounded-2xl shadow-2xl transition-all duration-500 active">
+          <iframe src="https://studentujac-my.sharepoint.com/personal/222137444_student_uj_ac_za/_layouts/15/embed.aspx?UniqueId=f1ad298e-a0b6-43dd-84be-30519c574a32" width="650" height="500" frameborder="0" scrolling="no" allowfullscreen title="EMS3" class="rounded-2xl"></iframe>
+        </div>
+        <div class="education-evidence w-full rounded-2xl shadow-2xl transition-all duration-500">
+          <iframe src="https://studentujac-my.sharepoint.com/personal/222137444_student_uj_ac_za/_layouts/15/embed.aspx?UniqueId=c817053b-5a0c-43fd-83fb-5a313244cd8a" width="650" height="500" frameborder="0" scrolling="no" allowfullscreen title="EMS2" class="rounded-2xl"></iframe>
+        </div>
+        <div class="education-evidence w-full rounded-2xl shadow-2xl transition-all duration-500">
+          <iframe src="https://studentujac-my.sharepoint.com/personal/222137444_student_uj_ac_za/_layouts/15/embed.aspx?UniqueId=dbe6266e-3a4c-41da-a126-dacba1bf9594" width="650" height="500" frameborder="0" scrolling="no" allowfullscreen title="EMS1" class="rounded-2xl"></iframe>
+        </div>
+      </div>
+      
+      <button class="education-next bg-red-600 hover:bg-red-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+        <span class="material-symbols-outlined text-2xl">arrow_right_alt</span>
+      </button>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Teaching Tools Section -->
+  <section id="teaching-tools" class="min-h-screen py-16 bg-gradient-to-br from-blue-200 to-blue-400">
+    <div class="container mx-auto px-4">
+      <div class="max-w-6xl mx-auto">
+        <h1 class="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-12">My Teaching Tools</h1>
+        
+        <!-- Teaching Tools Selection Buttons -->
+        <div class="flex justify-center space-x-4 mb-12 flex-wrap gap-4">
+          <button class="teaching-btn bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg shadow-lg transition-all duration-300 font-semibold active" data-teaching="googleClassroom">
+            Google Classroom
+          </button>
+          <button class="teaching-btn bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-lg shadow-lg transition-all duration-300 font-semibold" data-teaching="nearpod">
+            Nearpod
+          </button>
+          <button class="teaching-btn bg-orange-600 hover:bg-orange-700 text-white px-6 py-3 rounded-lg shadow-lg transition-all duration-300 font-semibold" data-teaching="Powerpoint">
+            PowerPoint
+          </button>
+        </div>
+
+        <!-- Google Classroom Section -->
+        <div id="googleClassroom" class="teaching-section active">
+          <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
+            <div class="text-center mb-8">
+              <img src="images/Google-Classroom-logo.jpg" alt="Google Classroom Logo" class="rounded-2xl mx-auto shadow-lg w-24 h-24 md:w-32 md:h-32 object-cover">
+              <h2 class="text-3xl font-bold text-gray-800 mt-6 mb-8">Google Classroom</h2>
+              
+              <div class="img-description max-w-4xl mx-auto mb-12">
+                <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+                  I use Google Classroom with my Grade 12 Business Studies and Accounting learners that I tutor, I am able to give them activities and give updates on upcoming activities. Although I normally do not use this to mark assessments, I give learners activities via this platform and they are able to submit online and we discuss the activities when we interact in person.
+                </p>
+              </div>  
+            </div>
+            
+            <div class="carousel-wrapper flex items-center justify-center space-x-4 md:space-x-8 mb-8">
+              <button class="Google-Classroom-back bg-indigo-600 hover:bg-indigo-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_left_alt</span>
+              </button>        
+              
+              <div class="carousel-inner max-w-2xl">
+                <img src="images/Google-Classroom1.png" alt="Google Classroom 1" class="Google-Classroom-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500 active">
+                <img src="images/Google-Classroom0.png" alt="Google Classroom 0" class="Google-Classroom-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/Google-Classroom2.png" alt="Google Classroom 2" class="Google-Classroom-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/Google-Classroom3.png" alt="Google Classroom 3" class="Google-Classroom-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/Google-Classroom4.png" alt="Google Classroom 4" class="Google-Classroom-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/Google-Classroom5.png" alt="Google Classroom 5" class="Google-Classroom-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+              </div>
+              
+              <button class="Google-Classroom-next bg-indigo-600 hover:bg-indigo-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_right_alt</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+       <!-- Nearpod Section -->
+        <div id="nearpod" class="teaching-section hidden">
+  <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
+    <div class="text-center mb-8">
+      <img src="images/nearpod-logo.jpg" alt="Nearpod Logo" class="rounded-2xl mx-auto shadow-lg w-24 h-24 md:w-32 md:h-32 object-cover">
+      <h2 class="text-3xl font-bold text-gray-800 mt-6 mb-8">Nearpod</h2>
+      
+      <div class="img-description max-w-4xl mx-auto mb-12">
+        <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+          Nearpod transforms my traditional presentations into interactive learning experiences. I use it to create lessons with embedded quizzes, polls, and collaborative boards that keep students engaged. The real-time feedback and assessment features help me gauge student understanding instantly and adjust my teaching accordingly.
+        </p>
+        <!-- Nearpod Pop-up Trigger Button -->
+      </div>  
+    </div>
+    
+    <!-- Nearpod Carousel -->
+    <div class="carousel-wrapper flex items-center justify-center space-x-4 md:space-x-8 mb-8">
+      <button class="nearpod-back bg-teal-600 hover:bg-teal-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+        <span class="material-symbols-outlined text-2xl">arrow_left_alt</span>
+      </button>        
+      
+      <div class="carousel-inner max-w-2xl">
+        <div class="nearpod-evidence w-full rounded-2xl shadow-2xl transition-all duration-500 active">
+          <iframe width="650" height="500" src="https://app.nearpod.com/?pin=4C27B9F1F2EDAB6BDDC4D09BFCB59915-1&oc=user-created&utm_source=embed&he=true" frameborder="0" allowfullscreen="" allow="accelerometer *; ambient-light-sensor *; autoplay *; camera *; clipboard-read *; clipboard-write *; encrypted-media *; fullscreen *; geolocation *; gyroscope *; magnetometer *; microphone *; midi *; payment *; picture-in-picture *; screen-wake-lock *; speaker *; sync-xhr *; usb *; web-share *; vibrate *; vr *"></iframe>
+        </div>
+        <div class="nearpod-evidence w-full rounded-2xl shadow-2xl transition-all duration-500">
+          <iframe width="650" height="500" src="https://app.nearpod.com/?pin=2AA25696180529607C90F9AEA2622CF4-1&oc=user-created&utm_source=embed&he=true" frameborder="0" allowfullscreen="" allow="accelerometer *; ambient-light-sensor *; autoplay *; camera *; clipboard-read *; clipboard-write *; encrypted-media *; fullscreen *; geolocation *; gyroscope *; magnetometer *; microphone *; midi *; payment *; picture-in-picture *; screen-wake-lock *; speaker *; sync-xhr *; usb *; web-share *; vibrate *; vr *" style="justify-content: center;"></iframe>
+        </div>
+        <div class="nearpod-evidence w-full rounded-2xl shadow-2xl transition-all duration-500">
+          <iframe width="600" height="514" src="https://app.nearpod.com/?pin=C2D87A9B1E2028960CF45FD4BC16EF35-1&oc=user-created&utm_source=embed&he=true" frameborder="0" allowfullscreen="" allow="accelerometer *; ambient-light-sensor *; autoplay *; camera *; clipboard-read *; clipboard-write *; encrypted-media *; fullscreen *; geolocation *; gyroscope *; magnetometer *; microphone *; midi *; payment *; picture-in-picture *; screen-wake-lock *; speaker *; sync-xhr *; usb *; web-share *; vibrate *; vr *"></iframe>
+        </div>
+      </div>
+              
+      <button class="nearpod-next bg-teal-600 hover:bg-teal-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+        <span class="material-symbols-outlined text-2xl">arrow_right_alt</span>
+      </button>
+    </div>
+  </div>
+        </div>
+
+
+       <!-- PowerPoint Section -->
+        <div id="Powerpoint" class="teaching-section hidden">
+          <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
+            <div class="text-center mb-8">
+              <img src="images/Powerpoint-logo.jpg" alt="PowerPoint Logo" class="rounded-2xl mx-auto shadow-lg w-24 h-24 md:w-32 md:h-32 object-cover">
+              <h2 class="text-3xl font-bold text-gray-800 mt-6 mb-8">PowerPoint</h2>
+        `     <div class="img-description max-w-4xl mx-auto mb-12">
+              <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+                I use Powerpoint to create visual content for learners. I use it with conjuction with Nearpod where I include the activities for learners and generate questions. I make available to learners the slides most of the times after our interactions.
+              </p>
+          </div>  
+    </div>
+    
+    <!-- Centered Carousel like Nearpod -->
+    <div class="carousel-wrapper flex items-center justify-center space-x-4 md:space-x-8 mb-8">
+      <button class="Powerpoint-back bg-orange-600 hover:bg-orange-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+        <span class="material-symbols-outlined text-2xl">arrow_left_alt</span>
+      </button>        
+      
+      <div class="carousel-inner max-w-2xl">
+        <div class="Powerpoint-evidence w-full rounded-2xl shadow-2xl transition-all duration-500 active">
+          <iframe src="https://studentujac-my.sharepoint.com/personal/222137444_student_uj_ac_za/_layouts/15/Doc.aspx?sourcedoc={b2f29a37-a2d4-4a0d-b98f-faa2919e773f}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="650" height="500" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+        </div>
+      <div class="Powerpoint-evidence w-full rounded-2xl shadow-2xl transition-all duration-500">
+        <iframe src="https://studentujac-my.sharepoint.com/personal/222137444_student_uj_ac_za/_layouts/15/Doc.aspx?sourcedoc={baf998a4-9b71-474f-8d38-090d6a9816fb}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="650px" height="500px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+      </div>
+      <div class="Powerpoint-evidence w-full rounded-2xl shadow-2xl transition-all duration-500">
+        <iframe src="https://studentujac-my.sharepoint.com/personal/222137444_student_uj_ac_za/_layouts/15/Doc.aspx?sourcedoc={c13df9f4-3159-4dcd-80d1-0549693f1969}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="650px" height="500px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+      </div>
+      </div>
+      
+      <button class="Powerpoint-next bg-orange-600 hover:bg-orange-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+        <span class="material-symbols-outlined text-2xl">arrow_right_alt</span>
+      </button>
+    </div>
+  </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Online Communities Section -->
+  <section id="online-communities" class="min-h-screen py-16 bg-gradient-to-br from-purple-200 to-purple-400">
+    <div class="container mx-auto px-4">
+      <div class="max-w-6xl mx-auto">
+        <h1 class="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-12">My Online Communities</h1>
+        
+        <!-- Community Selection Buttons -->
+        <div class="flex justify-center space-x-4 mb-12 flex-wrap gap-4">
+          <button class="community-btn bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg shadow-lg transition-all duration-300 font-semibold active" data-community="edWeb">
+            edWeb
+          </button>
+          <button class="community-btn bg-orange-600 hover:bg-orange-700 text-white px-6 py-3 rounded-lg shadow-lg transition-all duration-300 font-semibold" data-community="edutopia">
+            Edutopia
+          </button>
+          <button class="community-btn bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg shadow-lg transition-all duration-300 font-semibold" data-community="PEBuddy">
+            PE Buddy
+          </button>
+          <button class="community-btn bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg shadow-lg transition-all duration-300 font-semibold" data-community="teachersConnect">
+            Teachers Connect
+          </button>
+        </div>
+
+        <!-- edWeb Section -->
+        <div id="edWeb" class="community-section active">
+          <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
+            <div class="text-center mb-8">
+              <img src="images/edWeb-logo.jpg" alt="edWeb Logo" class="rounded-2xl mx-auto shadow-lg w-24 h-24 md:w-32 md:h-32 object-cover">
+              <h2 class="text-3xl font-bold text-gray-800 mt-6 mb-8">edWeb</h2>
+              
+              <div class="img-description max-w-4xl mx-auto mb-12">
+                <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+                  I use edWeb to connect with other teachers across the globe who are passionate about pursuing the idea of teaching in the 21st century. I join webinars in which classroom management strategies, assessment curation and a whole lot of other important education resources are shared and discussed. I also joined some communities with the broader community about the teaching of the 21st century skills and how to incorporate GBL (Game-Based Learning). I also earned a certificate for participation and engagement in webinars hosted by experts in the field of education.
+                </p>
+              </div>  
+            </div>
+            
+            <div class="carousel-wrapper flex items-center justify-center space-x-4 md:space-x-8 mb-8">
+              <button class="edWeb-back bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_left_alt</span>
+              </button>        
+              
+              <div class="carousel-inner max-w-2xl">
+                <img src="images/edWeb1.png" alt="edWeb 1" class="edWeb-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500 active">
+                <img src="images/edWeb2.png" alt="edWeb 2" class="edWeb-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/edWeb3.png" alt="edWeb 3" class="edWeb-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/edWeb4.png" alt="edWeb 4" class="edWeb-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/edWeb5.png" alt="edWeb 5" class="edWeb-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/edWeb6.png" alt="edWeb 6" class="edWeb-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/edWeb7.png" alt="edWeb 7" class="edWeb-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/edWeb8.png" alt="edWeb 8" class="edWeb-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+              </div>
+              
+              <button class="edWeb-next bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_right_alt</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- edutopia/X Section -->
+        <div id="edutopia" class="community-section hidden">
+          <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
+            <div class="text-center mb-8">
+              <img src="images/edutopia-logo.jpg" alt="edutopia Logo" class="rounded-2xl mx-auto shadow-lg w-24 h-24 md:w-32 md:h-32 object-cover">
+              <h2 class="text-3xl font-bold text-gray-800 mt-6 mb-8">Edutopia</h2>
+              
+              <div class="img-description max-w-4xl mx-auto mb-12">
+                <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+                  The Edutopia community is very useful for when asking questions regarding teaching - how to integrate technology, classroom management amongst other aspects. My interaction includes responding to questions by other teachers that I think I am knowledgeable in, bookmarking ideas for future use in the classroom or any articles that speak to my subject methodologies. I also ask questions for classroom implementation.
+                  <a href="https://www.edutopia.org/account/my-saved-content"><p>Visit My Homeroom</p></a>
+                </p>
+              </div>  
+            </div>
+            
+            <div class="carousel-wrapper flex items-center justify-center space-x-4 md:space-x-8 mb-8">
+              <button class="edutopia-back bg-indigo-600 hover:bg-indigo-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_left_alt</span>
+              </button>        
+              
+              <div class="carousel-inner max-w-2xl">
+                <img src="images/edutopia1.png" alt="edutopia 1" class="edutopia-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500 active">
+                <img src="images/edutopia2.png" alt="edutopia 2" class="edutopia-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/edutopia3.png" alt="edutopia 3" class="edutopia-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/edutopia4.png" alt="edutopia 4" class="edutopia-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/edutopia5.png" alt="edutopia 5" class="edutopia-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+              </div>
+              
+              <button class="edutopia-next bg-indigo-600 hover:bg-indigo-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_right_alt</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- PEBuddy Section -->
+        <div id="PEBuddy" class="community-section hidden">
+          <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
+            <div class="text-center mb-8">
+              <img src="images/PEBuddy-logo.jpg" alt="PEBuddy Logo" class="rounded-2xl mx-auto shadow-lg w-24 h-24 md:w-32 md:h-32 object-cover">
+              <h2 class="text-3xl font-bold text-gray-800 mt-6 mb-8">PE Buddy</h2>
+              
+              <div class="img-description max-w-4xl mx-auto mb-12">
+                <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+                 PE Buddy is a community of Physical Education and Sports teachers around the world including countries such as the USA where PE is prioritised. Although it is not about making posts, its about sharing resources that improve the teaching of PE. I have used some of the resources to prepare for my lessons on Pickleball and teaching the lesson on health and safety related issues on Physical Education. I also use the ebook from the community amongst some other resources to shape my teaching as a pre-service teacher.
+                </p>
+              </div>  
+            </div>
+            
+            <div class="carousel-wrapper flex items-center justify-center space-x-4 md:space-x-8 mb-8">
+              <button class="PEBuddy-back bg-red-600 hover:bg-red-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_left_alt</span>
+              </button>        
+              
+              <div class="carousel-inner max-w-2xl">
+               <div class="PEBuddy-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500 active">
+                  <iframe src="https://studentujac-my.sharepoint.com/personal/222137444_student_uj_ac_za/_layouts/15/Doc.aspx?sourcedoc={dac5b0cd-76bb-462b-b552-aeff73729090}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="650" height="500" frameborder="0" marginheight="0" marginwidth="0" class="rounded-2xl"></iframe>
+               </div>
+               <div class="PEBuddy-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                  <iframe src="https://studentujac-my.sharepoint.com/personal/222137444_student_uj_ac_za/_layouts/15/Doc.aspx?sourcedoc={26ddc903-6588-4a06-9f88-c6c2ae3bb026}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="650" height="500" frameborder="0" frameborder="0" marginheight="0" marginwidth="0" class="rounded-2xl"></iframe>
+               </div>
+               <div class="PEBuddy-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                  <iframe src="https://studentujac-my.sharepoint.com/personal/222137444_student_uj_ac_za/_layouts/15/embed.aspx?UniqueId=966abf1b-5120-44a3-9994-b774e9a5dc93" width="650" height="500" frameborder="0" marginheight="0" marginwidth="0" scrolling="yes" title="New PE Teacher Guidebook" class="rounded-2xl"></iframe>
+               </div>
+               <div class="PEBuddy-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                  <iframe src="https://studentujac-my.sharepoint.com/personal/222137444_student_uj_ac_za/_layouts/15/embed.aspx?UniqueId=44c64e1f-16f6-4139-84f1-dc68635117db" width="650" height="500" frameborder="0" scrolling="no" allowfullscreen title="Sample Fitness Circuit - Printable" class="rounded-2xl"></iframe>
+               </div>
+                <div class="PEBuddy-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                  <iframe src="https://studentujac-my.sharepoint.com/personal/222137444_student_uj_ac_za/_layouts/15/embed.aspx?UniqueId=0ad55fce-9d2b-443c-b3d5-6370df9bc3d0" width="650" height="500" frameborder="0" scrolling="no" allowfullscreen title="Everybody's It" class="rounded-2xl"></iframe>
+               </div>
+              </div>
+              
+              <button class="PEBuddy-next bg-red-600 hover:bg-red-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_right_alt</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- teachersConnect Section -->
+        <div id="teachersConnect" class="community-section hidden">
+          <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
+            <div class="text-center mb-8">
+              <img src="images/teachersConnect-logo.jpg" alt="teachersConnect Logo" class="rounded-2xl mx-auto shadow-lg w-24 h-24 md:w-32 md:h-32 object-cover">
+              <h2 class="text-3xl font-bold text-gray-800 mt-6 mb-8">Teachers Connect</h2>
+              
+              <div class="img-description max-w-4xl mx-auto mb-12">
+                <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+                  I use Teachers Connect to complete courses offered by the Department of Basic Education for teacher developnment in curriculum and the highly spoken about Project-Based Learning. I have completed these courses about curriculum in the Senior Phase & FET to understand curriculum in these phases.
+                </p>
+              </div>  
+            </div>
+            
+            <div class="carousel-wrapper flex items-center justify-center space-x-4 md:space-x-8 mb-8">
+              <button class="teachersConnect-back bg-green-600 hover:bg-green-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_left_alt</span>
+              </button> 
+            <div class="carousel-inner max-w-2xl">       
+              <div class="teachersConnect-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500 active">
+                <iframe src="https://studentujac-my.sharepoint.com/personal/222137444_student_uj_ac_za/_layouts/15/embed.aspx?UniqueId=47d29d5d-1ee3-403d-afbc-25b5c2a68da1" width="650" height="500" frameborder="0" scrolling="no" allowfullscreen title="thabiso_kheoIntroduction-to-Project-Based-LearningIntroduction-to-PBLTeacherConnect"></iframe>
+              </div>
+              <div class="teachersConnect-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <iframe src="https://studentujac-my.sharepoint.com/personal/222137444_student_uj_ac_za/_layouts/15/embed.aspx?UniqueId=74ebf460-96c2-492b-b22e-c24afc76a8b8" width="650" height="500" frameborder="0" scrolling="no" allowfullscreen title="thabiso_kheoBEEI-Sports-038-Enrichment-Assistants-SEA-TrainingBEEI-Sports-Enrichment-Assistants-SEA-TrainingTeacherConnect" class="carousel-inner max-w-2xl"></iframe>
+              </div>
+              <div class="teachersConnect-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <iframe src="https://studentujac-my.sharepoint.com/personal/222137444_student_uj_ac_za/_layouts/15/embed.aspx?UniqueId=c9c344c0-5ab3-4dd6-8f54-f89a31fee4cc" width="650" height="500" frameborder="0" scrolling="no" allowfullscreen title="thabiso_kheoBEEI-Curriculum-Training-IntermediateSenior-phaseCurriculum-Training-Inter-PhaseTeacherConnect"></iframe>
+              </div>
+              <div class="teachersConnect-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <iframe src="https://studentujac-my.sharepoint.com/personal/222137444_student_uj_ac_za/_layouts/15/embed.aspx?UniqueId=ab054360-b301-46e4-9cba-b04b3b669409" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="thabiso_kheoBEEI-Curriculum-Training-FET-phaseCurriculum-Training-FET-PhaseTeacherConnect"></iframe>
+              </div>
+            </div> 
+              <button class="teachersConnect-next bg-green-600 hover:bg-green-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_right_alt</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Learning Websites Section -->
+  <section id="learning-websites" class="min-h-screen py-16 bg-gradient-to-br from-green-200 to-green-400">
+    <div class="container mx-auto px-4">
+      <div class="max-w-6xl mx-auto">
+        <h1 class="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-12">My Learning Websites</h1>
+        
+        <!-- Website Selection Buttons -->
+        <div class="flex justify-center space-x-4 mb-12 flex-wrap gap-4">
+          <button class="website-btn bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-lg shadow-lg transition-all duration-300 font-semibold active" data-website="youtube">
+            YouTube
+          </button>
+          <button class="website-btn bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg shadow-lg transition-all duration-300 font-semibold" data-website="freeCodeCamp">
+            freeCodeCamp
+          </button>
+          <button class="website-btn bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-lg shadow-lg transition-all duration-300 font-semibold" data-website="accounting">
+            Learn Accounting
+          </button>
+          <button class="website-btn bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg shadow-lg transition-all duration-300 font-semibold" data-website="w3schools">
+            w3schools
+          </button>
+        </div>
+
+        <!-- YouTube Section -->
+        <div id="youtube" class="website-section active">
+          <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
+            <div class="text-center mb-8">
+              <img src="images/youtube-logo.jpg" alt="YouTube Logo" class="rounded-2xl mx-auto shadow-lg w-24 h-24 md:w-32 md:h-32 object-cover">
+              <h2 class="text-3xl font-bold text-gray-800 mt-6 mb-8">YouTube</h2>
+              
+              <div class="img-description max-w-4xl mx-auto mb-12">
+                <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+                  I use YouTube for my own professional development as a teacher, I learn new content in my methodologies and areas of interest. I use Youtube as a way to enhance my Pedagogical Content Knowledge and keeps me abreast with changes in the way of teaching particular subjects. I watch videos that relate to the fields of Accounting and Physical Education. I also use YouTube to learn technologies that I believe will be beneficial for the future.
+                </p>
+              </div>  
+            </div>
+            
+            <div class="carousel-wrapper flex items-center justify-center space-x-4 md:space-x-8 mb-8">
+              <button class="youtube-back bg-red-500 hover:bg-red-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_left_alt</span>
+              </button>        
+              
+              <div class="carousel-inner max-w-2xl">
+                <img src="images/YOUTUBE1.png" alt="YouTube 1" class="youtube-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500 active">
+                <img src="images/YOUTUBE2.png" alt="YouTube 2" class="youtube-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/YOUTUBE3.png" alt="YouTube 3" class="youtube-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/YOUTUBE4.png" alt="YouTube 4" class="youtube-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+              </div>
+              
+              <button class="youtube-next bg-red-500 hover:bg-red-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_right_alt</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- freeCodeCamp Section -->
+        <div id="freeCodeCamp" class="website-section hidden">
+          <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
+            <div class="text-center mb-8">
+              <img src="images/freeCodeCamp-logo.jpg" alt="freeCodeCamp Logo" class="rounded-2xl mx-auto shadow-lg w-24 h-24 md:w-32 md:h-32 object-cover">
+              <h2 class="text-3xl font-bold text-gray-800 mt-6 mb-8">freeCodeCamp</h2>
+              
+              <div class="img-description max-w-4xl mx-auto mb-12">
+                <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+                  I use freeCodeCamp to learn how to code (my personal development and learning) and I also got a little certificate from them, they provide practical learning for coding and they provide a certificate of completion after satisfying the necessary requirements. I am currently learning Javascript and Python with them.
+                </p>
+              </div>  
+            </div>
+            
+            <div class="carousel-wrapper flex items-center justify-center space-x-4 md:space-x-8 mb-8">
+              <button class="freeCodeCamp-back bg-blue-500 hover:bg-blue-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_left_alt</span>
+              </button>        
+              
+              <div class="carousel-inner max-w-2xl">
+                <img src="images/freeCodeCamp1.png" alt="freeCodeCamp 1" class="freeCodeCamp-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500 active">
+                <img src="images/freeCodeCamp3.png" alt="freeCodeCamp 3" class="freeCodeCamp-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <a href="https://www.freecodecamp.org/certification/thabisok/responsive-web-design" target="_blank">
+                  <img src="images/freeCodeCamp2.png" alt="freeCodeCamp 2" class="freeCodeCamp-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                </a>
+              </div>
+              
+              <button class="freeCodeCamp-next bg-orange-500 hover:bg-orange-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_right_alt</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- learn-accounting Section -->
+        <div id="accounting" class="website-section hidden">
+          <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
+            <div class="text-center mb-8">
+              <img src="images/accounting-logo.jpg" alt="learn-accounting Logo" class="rounded-2xl mx-auto shadow-lg w-24 h-24 md:w-32 md:h-32 object-cover">
+              <h2 class="text-3xl font-bold text-gray-800 mt-6 mb-8">learn-accounting</h2>
+              
+              <div class="img-description max-w-4xl mx-auto mb-12">
+                <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+                  Learn Accounting is a free website that I use to learn accounting to advance the knowledge that I already have. The website is self-paced and gives assessment opportunities for every topic that is covered. There are supplementary readings for all topics around 16 topics and over 20 study videos.
+                </p>
+              </div>  
+            </div>
+            
+            <div class="carousel-wrapper flex items-center justify-center space-x-4 md:space-x-8 mb-8">
+              <button class="accounting-back bg-blue-500 hover:bg-blue-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_left_alt</span>
+              </button>        
+              
+              <div class="carousel-inner max-w-2xl">
+                <img src="images/accounting1.png" alt="learn-accounting 1" class="accounting-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500 active">
+                <img src="images/accounting2.png" alt="learn-accounting 2" class="accounting-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/accounting3.png" alt="learn-accounting 3" class="accounting-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/accounting4.png" alt="learn-accounting 4" class="accounting-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+              </div>
+              
+              <button class="accounting-next bg-blue-500 hover:bg-blue-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_right_alt</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- w3schools Section -->
+        <div id="w3schools" class="website-section hidden">
+          <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
+            <div class="text-center mb-8">
+              <img src="images/w3schools-logo.jpg" alt="w3schools Logo" class="rounded-2xl mx-auto shadow-lg w-24 h-24 md:w-32 md:h-32 object-cover">
+              <h2 class="text-3xl font-bold text-gray-800 mt-6 mb-8">w3schools</h2>
+              
+              <div class="img-description max-w-4xl mx-auto mb-12">
+                <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+                  I utilize W3Schools to supplement my learning of computer engineering technologies which are some of my interests. I use it closely with freeCodeCamp to get perspectives from both platforms to ensure that I do not learn outdated versions of the technologies.
+                </p>
+              </div>  
+            </div>
+            
+            <div class="carousel-wrapper flex items-center justify-center space-x-4 md:space-x-8 mb-8">
+              <button class="w3schools-back bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_left_alt</span>
+              </button>        
+              
+              <div class="carousel-inner max-w-2xl">
+                <img src="images/w3schools1.png" alt="w3schools 1" class="w3schools-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500 active">
+                <img src="images/w3schools2.png" alt="w3schools 2" class="w3schools-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+                <img src="images/w3schools3.png" alt="w3schools 3" class="w3schools-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+              </div>
+              
+              <button class="w3schools-next bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_right_alt</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cloud Storages Section -->
+  <section id="cloud-storages" class="min-h-screen py-16 bg-gradient-to-br from-amber-200 to-amber-400">
+    <div class="container mx-auto px-4">
+      <div class="max-w-6xl mx-auto">
+        <h1 class="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-12">My Cloud Storages</h1>
+        
+        <!-- Storage Selection Buttons -->
+        <div class="flex justify-center space-x-4 mb-12">
+          <button class="storage-btn bg-cyan-500 hover:bg-cyan-600 text-white px-6 py-3 rounded-lg shadow-lg transition-all duration-300 font-semibold active" data-storage="google-drive">
+            Google Drive
+          </button>
+          <button class="storage-btn bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg shadow-lg transition-all duration-300 font-semibold" data-storage="dropbox">
+            Dropbox
+          </button>
+          <button class="storage-btn bg-purple-500 hover:bg-purple-600 text-white px-6 py-3 rounded-lg shadow-lg transition-all duration-300 font-semibold" data-storage="onedrive">
+            OneDrive
+          </button>
+        </div>
+
+        <!-- Google Drive Section -->
+        <div id="google-drive" class="storage-section active">
+          <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
+            <div class="text-center mb-8">
+              <img src="images/drive.jpg" alt="Google Drive Logo" class="rounded-2xl mx-auto shadow-lg w-24 h-24 md:w-32 md:h-32 object-cover">
+              <h2 class="text-3xl font-bold text-gray-800 mt-6 mb-8">Google Drive</h2>
+              
+              <div class="img-description max-w-4xl mx-auto mb-12">
+                <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+                  I use Google Drive to manage my teaching resources that I use, for example below there is a folder for Accounting across the four grades. This gives me a clean and a seamlessly accessible folder when I need to use it. It also allows me to share content with my learners. I also have a personal coding folder - for all my coding textbooks.
+                </p>
+              </div>  
+            </div>
+            
+            <div class="carousel-wrapper flex items-center justify-center space-x-4 md:space-x-8 mb-8">
+              <button class="drive-back bg-cyan-500 hover:bg-cyan-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_left_alt</span>
+              </button>        
+              
+              <div class="carousel-inner max-w-2xl">
+                <img src="images/GDRIVE.png" alt="Google Drive" class="drive-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500 active">
+                <img src="images/GD2.png" alt="Google Drive 2" class="drive-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+              </div>
+              
+              <button class="drive-next bg-cyan-500 hover:bg-cyan-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_right_alt</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dropbox Section -->
+        <div id="dropbox" class="storage-section hidden">
+          <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
+            <div class="text-center mb-8">
+              <img src="images/dropbox.jpg" alt="Dropbox Logo" class="rounded-2xl mx-auto shadow-lg w-24 h-24 md:w-32 md:h-32 object-cover">
+              <h2 class="text-3xl font-bold text-gray-800 mt-6 mb-8">Dropbox</h2>
+              
+              <div class="img-description max-w-4xl mx-auto mb-12">
+                <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+                  I use Dropbox as an additional cloud storage solution for backing up my editing projects for my side quests. I use it also to store my lesson plans in a different folder. Every lesson plan that I design I drop in the dropbox. The main purpose of using it - is for the small projects is because of the limited storage it has, so that I do not store large files in it. Visit My Dropbox <a href="https://www.dropbox.com/scl/fo/p9njwsea1ls92zwkvipzz/ABOtkzcKQfPIh-t4SEAx360?rlkey=b3iunslcia63ig3yvol145ak1&st=4k6d6wnc&dl=0" target="_blank" class="text-blue-600 hover:text-blue-800 underline">Here</a>
+                </p>
+              </div>  
+            </div>
+            
+            <div class="carousel-wrapper flex items-center justify-center space-x-4 md:space-x-8 mb-8">
+              <button class="dropbox-back bg-blue-500 hover:bg-blue-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_left_alt</span>
+              </button>        
+              
+              <div class="carousel-inner max-w-2xl">
+                <img src="images/DROPBOX1.png" alt="Dropbox 1" class="dropbox-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500 active">
+                <img src="images/DROPBOX2.png" alt="Dropbox 2" class="dropbox-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+              </div>
+              
+              <button class="dropbox-next bg-blue-500 hover:bg-blue-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_right_alt</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- OneDrive Section - Fixed -->
+        <div id="onedrive" class="storage-section hidden">
+          <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
+            <div class="text-center mb-8">
+              <img src="images/onedrive.jpg" alt="OneDrive Logo" class="rounded-2xl mx-auto shadow-lg w-24 h-24 md:w-32 md:h-32 object-cover">
+              <h2 class="text-3xl font-bold text-gray-800 mt-6 mb-8">OneDrive</h2>
+              
+              <div class="img-description max-w-4xl mx-auto mb-12">
+                <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+                  I utilize Microsoft OneDrive for seamless integration with Office 365 applications. I use it to store all the assignments I type and assessments that I create for learners and the Powerpoints that I create. One interesting feature is that I can access OneDrive from any device and edit stuff from anywhere. Also the study materials for my modules I save them here for easy access.
+                </p>
+              </div>  
+            </div>
+            
+            <div class="carousel-wrapper flex items-center justify-center space-x-4 md:space-x-8 mb-8">
+              <button class="onedrive-back bg-purple-500 hover:bg-purple-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_left_alt</span>
+              </button>        
+              
+              <div class="carousel-inner max-w-2xl">
+                <a href="https://studentujac-my.sharepoint.com/:p:/g/personal/222137444_student_uj_ac_za/EaSY-bpxm09HjTgJDWqYFvsBAa-Jgo9zZswI2cL0CpM_nw" target="_blank" class="onedrive-evidence-wrapper">
+                  <img src="images/ONEDRIVE1.png" alt="OneDrive 1" class="onedrive-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500 active">
+                </a>
+                <img src="images/ONEDRIVE2.png" alt="OneDrive 2" class="onedrive-evidence w-full h-auto rounded-2xl shadow-2xl transition-all duration-500">
+              </div>
+              
+              <button class="onedrive-next bg-purple-500 hover:bg-purple-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl">
+                <span class="material-symbols-outlined text-2xl">arrow_right_alt</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- OneDrive Sign-in Modal -->
+<div id="onedriveModal" class="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50 transition-opacity duration-300 hidden">
+  <div class="bg-white rounded-2xl shadow-2xl p-8 max-w-md mx-4 transform transition-all duration-300 scale-95">
+    <div class="text-center">
+      <!-- Modal Header -->
+      <div class="flex items-center justify-center mb-6">
+        <img src="images/onedrive.jpg" alt="OneDrive Logo" class="w-16 h-16 rounded-xl mr-4">
+        <h3 class="text-2xl font-bold text-gray-800">OneDrive Access Required</h3>
+      </div>
+      
+      <!-- Modal Content -->
+      <div class="mb-6">
+        <p class="text-gray-600 mb-4">
+          To view some of the embedded evidence in this portfolio, please ensure you are signed in to your Microsoft OneDrive account.
+        </p>
+        <p class="text-gray-600 mb-4">
+          This will allow you to see the embedded PowerPoint presentations and other documents stored in OneDrive.
+        </p>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-4">
+          <p class="text-sm text-blue-700">
+            <span class="font-semibold">Note:</span> Some embedded content may not display properly if you're not signed in.
+          </p>
+        </div>
+      </div>
+      
+      <!-- Modal Actions -->
+      <div class="flex flex-col sm:flex-row gap-3 justify-center">
+        <button id="closeOnedriveModal" class="bg-gray-500 hover:bg-gray-600 text-white px-6 py-3 rounded-lg transition-all duration-300 font-semibold flex-1">
+          Got It
+        </button>
+        <button id="dontShowAgain" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-all duration-300 font-semibold flex-1">
+          Don't Show Again
+        </button>
+      </div>
+      
+      <!-- Sign-in Help -->
+      <div class="mt-4 pt-4 border-t border-gray-200">
+        <p class="text-sm text-gray-500">
+          Need help signing in? 
+          <a href="https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage" 
+             target="_blank" 
+             class="text-blue-600 hover:text-blue-700 underline">
+            Visit OneDrive
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer-bar bg-gradient-to-r from-gray-800 to-blue-900 text-white py-8">
+  <div class="container mx-auto px-4">
+    <!-- Main Footer Content -->
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+      <!-- About Section -->
+      <div class="col-span-1 md:col-span-2">
+        <h3 class="text-xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
+          TP Kheo's Personal Learning Network
+        </h3>
+        <p class="text-gray-300 mb-4">
+          A comprehensive showcase of digital tools, resources, and communities that shape my teaching practice and professional development.
+        </p>
+        <div class="flex space-x-4">
+          <a href="https://www.linkedin.com/in/thabiso-k-774a5a377" target="_blank" class="footer-social-link bg-blue-600 hover:bg-blue-700">
+            <i class='bx bxl-linkedin'></i>
+          </a>
+          <a href="https://x.com/thabisokh_eo" target="_blank" class="footer-social-link bg-black hover:bg-gray-800">
+            <i class='bx bxl-twitter'></i>
+          </a>
+          <a href="https://thabisok.oneapp.dev/" target="_blank" class="footer-social-link bg-red-600 hover:bg-red-700">
+            <i class='bx bxs-user-circle'></i>
+          </a>
+        </div>
+      </div>
+      <!-- OneDrive Sign-in Modal -->
+<div id="onedriveModal" class="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50 transition-opacity duration-300 hidden">
+  <div class="bg-white rounded-2xl shadow-2xl p-8 max-w-md mx-4 transform transition-all duration-300 scale-95">
+    <div class="text-center">
+      <!-- Modal Header -->
+      <div class="flex items-center justify-center mb-6">
+        <img src="images/onedrive.jpg" alt="OneDrive Logo" class="w-16 h-16 rounded-xl mr-4">
+        <h3 class="text-2xl font-bold text-gray-800">OneDrive Access Required</h3>
+      </div>
+      
+      <!-- Modal Content -->
+      <div class="mb-6">
+        <p class="text-gray-600 mb-4">
+          To view some of the embedded evidence in this portfolio, please ensure you are signed in to your Microsoft OneDrive account.
+        </p>
+        <p class="text-gray-600 mb-4">
+          This will allow you to see the embedded PowerPoint presentations and other documents stored in OneDrive.
+        </p>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-4">
+          <p class="text-sm text-blue-700">
+            <span class="font-semibold">Note:</span> Some embedded content may not display properly if you're not signed in.
+          </p>
+        </div>
+      </div>
+      
+      <!-- Modal Actions -->
+      <div class="flex flex-col sm:flex-row gap-3 justify-center">
+        <button id="closeOnedriveModal" class="bg-gray-500 hover:bg-gray-600 text-white px-6 py-3 rounded-lg transition-all duration-300 font-semibold flex-1">
+          Got It
+        </button>
+        <button id="dontShowAgain" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-all duration-300 font-semibold flex-1">
+          Don't Show Again
+        </button>
+      </div>
+      
+      <!-- Sign-in Help -->
+      <div class="mt-4 pt-4 border-t border-gray-200">
+        <p class="text-sm text-gray-500">
+          Need help signing in? 
+          <a href="https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage" 
+             target="_blank" 
+             class="text-blue-600 hover:text-blue-700 underline">
+            Visit OneDrive
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+      <div>
+        <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+        <ul class="space-y-2">
+          <li><a href="#dashboard" class="footer-link">Dashboard</a></li>
+          <li><a href="#personal-profiles" class="footer-link">Personal Profiles</a></li>
+          <li><a href="#communication-tools" class="footer-link">Communication Tools</a></li>
+          <li><a href="#assessment-tools" class="footer-link">Assessment Tools</a></li>
+        </ul>
+      </div>
+      
+      <!-- Resources -->
+      <div>
+        <h4 class="text-lg font-semibold mb-4">Resources</h4>
+        <ul class="space-y-2">
+          <li><a href="#content-curation" class="footer-link">Content Curation</a></li>
+          <li><a href="#teaching-tools" class="footer-link">Teaching Tools</a></li>
+          <li><a href="#online-communities" class="footer-link">Online Communities</a></li>
+          <li><a href="#learning-websites" class="footer-link">Learning Websites</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <!-- Divider -->
+    <div class="border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center">
+      <!-- Copyright -->
+      <div class="mb-4 md:mb-0">
+        <p class="text-gray-400 text-sm">
+          &copy; 2025 Thabiso P. Kheo | University of Johannesburg
+        </p>
+      </div>
+
+      <button id="backToTop" class="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white px-4 py-2 rounded-lg transition-all duration-300 flex items-center space-x-2">
+        <span>Back to Top</span>
+        <i class='bx bx-chevron-up'></i>
+      </button>
+    </div>
+  </div>
+</footer>
+
+  <script src="pln.js"></script>
+</body>
+</html>
