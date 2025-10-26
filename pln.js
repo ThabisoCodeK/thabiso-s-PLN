@@ -1161,4 +1161,35 @@ function showSectionReminder() {
 // Initialize section reminders
 document.addEventListener('DOMContentLoaded', function() {
     setupOnedriveSectionReminders();
+
 });
+
+// Add Mentimeter to Assessment Tools buttons
+// Update your Assessment Tools Selection Buttons in HTML to include:
+// <button class="assessment-btn bg-pink-600 hover:bg-pink-700 text-white px-6 py-3 rounded-lg shadow-lg transition-all duration-300 font-semibold" data-assessment="mentimeter">
+//   Mentimeter
+// </button>
+
+// Mentimeter Carousel
+const mentimeterEvidence = document.querySelectorAll('.mentimeter-evidence');
+const mentimeterNextBtn = document.querySelector('.mentimeter-next');
+const mentimeterBackBtn = document.querySelector('.mentimeter-back');
+let mentimeterIndex = 0;
+
+if (mentimeterEvidence.length > 0) {
+  mentimeterEvidence[mentimeterIndex].classList.add('active');
+}
+
+if (mentimeterNextBtn && mentimeterBackBtn) {
+  mentimeterNextBtn.addEventListener('click', () => {
+    mentimeterEvidence[mentimeterIndex].classList.remove('active');
+    mentimeterIndex = (mentimeterIndex + 1) % mentimeterEvidence.length;
+    mentimeterEvidence[mentimeterIndex].classList.add('active');
+  });
+
+  mentimeterBackBtn.addEventListener('click', () => {
+    mentimeterEvidence[mentimeterIndex].classList.remove('active');
+    mentimeterIndex = (mentimeterIndex - 1 + mentimeterEvidence.length) % mentimeterEvidence.length;
+    mentimeterEvidence[mentimeterIndex].classList.add('active');
+  });
+}
